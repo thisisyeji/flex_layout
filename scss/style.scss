@@ -85,9 +85,9 @@ main {
 				background: rgb(145, 127, 251, 0.6);
 				position: absolute;
 				top: 0;
-				left: -200px;
+				left: -150px;
 				opacity: 0;
-				transition: 1s;
+				transition: 1.5s;
 			}
 
 			.inner {
@@ -129,12 +129,14 @@ main {
 					overflow: hidden;
 					box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
 					filter: saturate(10%);
+					transition: 1.5s;
 
 					video {
 						width: 100%;
 						height: 100%;
 						object-fit: cover;
 						transform: scale(1.1);
+						transition: 1.5s;
 					}
 				}
 			}
@@ -145,7 +147,7 @@ main {
 				z-index: 2;
 
 				&::before {
-					opacity: 1;
+					opacity: 0.8;
 					left: 0;
 				}
 
